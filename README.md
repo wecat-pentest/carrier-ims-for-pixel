@@ -1,5 +1,14 @@
 # Carrier IMS for Pixel (TurboIMS)
-
+  1 +## 3.9.0 (2026-06-18)                                                                                                                                                                                                                                                                                      
+   2 +                                                                                                                                                                                                                                                                                                           
+   3 +### 新增                                                                                                                                                                                                                                                                                                   
+   4 +- Android 17（API 37）完整支持：compileSdk / targetSdk 升级至 37                                                                                                                                                                                                                                           
+   5 +- 新增网络安全配置文件，显式声明 captive portal 检测域名的明文 HTTP 访问权限                                                                                                                                                                                                                               
+   6 +                                                                                                                                                                                                                                                                                                           
+   7 +### 变更                                                                                                                                                                                                                                                                                                   
+   8 +- 升级 AGP 8.13.2 → 9.1.1（Android 17 编译必需）                                                                                                                                                                                                                                                           
+   9 +- 升级 Gradle Wrapper 9.1.0 → 9.5.1（AGP 9.x 最低要求 9.3.1）                                                                                                                                                                                                                                              
+  10 +- 迁移至 AGP 9.x 内置 Kotlin 支持，移除显式 `kotlin-android` 插件声明  
 <p align="center">
   <img src="app/src/main/ic_launcher-playstore.png" width="128" alt="Carrier IMS logo" />
 </p>
